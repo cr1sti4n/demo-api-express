@@ -16,5 +16,7 @@ app.use(morgan('dev'));
 // routes
 app.use(customerRoutes);
 
-app.listen(3002);
-console.log('Server on port', 3002);
+const port = process.env.PORT || 3000;
+
+app.listen(port);
+console.log('Server on port: ', port);

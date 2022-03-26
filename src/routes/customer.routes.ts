@@ -15,6 +15,6 @@ router.get("/customers/:id", getCustomer);
 router.post("/customers", createCustomer);
 router.put("/customers/:id", updateCustomer);
 router.delete("/customers/:id", deleteCustomer);
-router.get('/customers/average', averageAge)
+router.get('/average', averageAge)
 
 export default router;
