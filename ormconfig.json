@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "host": "db-mysql-1.c7zf0aqchuyd.us-east-2.rds.amazonaws.com",
+  "port": "3306",
+  "username": "ballon",
+  "password": "Maniac3210",
+  "database": "test_express",
+  "entities": ["dist/entity/**/*.js"],
+  "logging": false,
+  "synchronize": true
+}
